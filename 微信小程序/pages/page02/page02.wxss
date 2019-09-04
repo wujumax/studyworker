@@ -66,16 +66,11 @@
 
 .content {
   width: 750rpx;
-<<<<<<< HEAD
   background: white;
-=======
-  background: #f7f7f8;
->>>>>>> c500ce01af22788e73b8c8dcb56968f19e23a394
 }
 
 .Topic {
   width: 750rpx;
-<<<<<<< HEAD
   height: 50rpx;
   background: #F0F0F0;
 }
@@ -117,11 +112,3 @@ margin-left: 20rpx;
 .taglow2{
   margin-left: 40rpx;
 }
-=======
-  height: 450rpx;
-  background: #f0f0f0;
-}
-
-.Title {
-}
->>>>>>> c500ce01af22788e73b8c8dcb56968f19e23a394
