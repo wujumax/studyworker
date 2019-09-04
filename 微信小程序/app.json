@@ -4,6 +4,11 @@
     "pages/pages01/page01",
     "pages/seach/seach",
     "pages/page02/page02",
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> 499c03b5e1fa4668a66f0277179c90ad188ca212
     "pages/logs/logs"
   ],
   "window": {
@@ -20,7 +25,7 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/course.png",
         "selectedIconPath": "imgs/course1.png",
         "text": "课程"
@@ -33,14 +38,14 @@
       },
       
       {
-        "pagePath": "pages/pages01/page01",
+        "pagePath": "pages/page02/page02",
         "iconPath": "imgs/tool.png",
         "selectedIconPath": "imgs/tool1.png",
         "text": "工具箱"
       },
       
       {
-        "pagePath": "pages/pages01/page01",
+        "pagePath": "pages/page02/page02",
         "iconPath": "imgs/mine.png",
         "selectedIconPath": "imgs/mine1.png",
 
