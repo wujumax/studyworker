@@ -1,0 +1,54 @@
+<view class="body" style="height:{{height}}rpx;">
+  <view class="head">
+    <view class="photo">
+      <image src="http://img2.imgtn.bdimg.com/it/u=2721977727,977410997&fm=26&gp=0.jpg" ></image>
+    </view>
+    <view class="user">
+      <view class="username">以梦为鹿</view>
+      <view class="userapply">
+        <image src="../../imgs/pro.png" ></image>
+        <view>申请特邀</view>
+      </view>
+    </view>
+    <view class="value">
+        经验值：0
+    </view>
+    <view class="nav">
+      <view class="post">
+        <view class="zero">0</view>
+        <view class="title">发帖</view>
+      </view>
+      <view class="post">
+        <view class="zero">0</view>
+        <view class="title">回帖</view>
+      </view>
+      <view class="post">
+        <view class="zero">0</view>
+        <view class="title">精华</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="content">
+    <view class="main">
+      <view class="collect">
+        <view class="collect-left">
+          <image src="../../imgs/collect.png"></image>
+          <view>我的收藏</view>
+        </view>
+        <view class="collect-right">
+          <image src="../../imgs/more.png"></image>
+        </view>
+      </view>
+      <view class="collect">
+        <view class="collect-left">
+          <image src="../../imgs/news.png"></image>
+          <view>我的消息</view>
+        </view>
+        <view class="collect-right">
+          <image src="../../imgs/more.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

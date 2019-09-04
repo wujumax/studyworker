@@ -1,6 +1,6 @@
 {
   "pages": [
-    
+    "pages/mine/mine",
     "pages/index/index",
     "pages/logs/logs",
     "pages/pages01/page01"
@@ -37,7 +37,7 @@
         "text": "工具箱"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/mine/mine",
         "iconPath": "imgs/mine.png",
         "selectedIconPath": "imgs/mine.png",
         "text": "我的"
