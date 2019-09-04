@@ -1,0 +1,74 @@
+.searh {
+  display: flex;
+  line-height: 70rpx;
+  width: 690rpx;
+  height: 70rpx;
+  color: #c6c6c6;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+  background: white;
+  border-radius: 10rpx;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  height: 500rpx;
+  width: 750rpx;
+  background: #626de9;
+  text-align: center;
+}
+
+.img {
+  
+  border-radius: 20rpx;
+  width: 690rpx;
+  height: 450rpx;
+  margin: 0 auto;
+  z-index: 2;
+}
+.button{
+   margin: 0 auto;
+ width: 650rpx;
+  background:#FEFEFE;
+  margin-top: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button .title{
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: column;
+  height: 65rpx;
+  justify-content: space-between;
+  width: 135rpx;
+}
+.button .titleSelect{
+  font-size: 35rpx;
+  color: #848EEF;
+  display: flex;
+  flex-direction: column;
+  height: 65rpx;
+  justify-content: space-between;
+  width: 135rpx;
+}
+.line{
+  background: #848EEF;
+  width: 100%;
+  height: 5rpx;
+}
+.content{
+  width: 750rpx;
+  background: #F7F7F8;
+}
+.Topic{
+  width: 750rpx;
+  height: 450rpx;
+  background: #F0F0F0;
+}
+.Title{
+  
+}

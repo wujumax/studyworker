@@ -1,0 +1,17 @@
+.searh {
+  display: flex;
+  line-height: 70rpx;
+  width: 690rpx;
+  height: 70rpx;
+  color: #c6c6c6;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+  margin-bottom: 20rpx;
+  background: white;
+  border-radius: 10rpx;
+}
+.body{
+  width: 750rpx;
+  height: 300rpx;
+  background:red;
+}

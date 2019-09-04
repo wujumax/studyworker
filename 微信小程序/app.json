@@ -1,6 +1,9 @@
 {
   "pages": [
     "pages/pages01/page01",
+    "pages/seach/seach",
+    "pages/page02/page02",
+    
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -18,13 +21,13 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/pages01/page01",
+        "pagePath": "pages/index/index",
         "iconPath": "imgs/course.png",
         "selectedIconPath": "imgs/course1.png",
         "text": "课程"
       },
       {
-        "pagePath": "pages/pages01/page01",
+        "pagePath": "pages/page02/page02",
         "iconPath": "imgs/community.png",
         "selectedIconPath": "imgs/community1.png",
         "text": "社区"
