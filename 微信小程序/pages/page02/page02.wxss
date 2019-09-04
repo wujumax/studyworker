@@ -17,7 +17,7 @@
   justify-items: center;
   height: 500rpx;
   width: 750rpx;
-  background: #626de9;
+  background: #626DE9;
   text-align: center;
 }
 
@@ -66,14 +66,69 @@
 
 .content {
   width: 750rpx;
+<<<<<<< HEAD
+  background: white;
+=======
+
+  background: white;
+
   background: #f7f7f8;
+
+>>>>>>> d2a963b18ed202e8d2366a183585f8ef508d39ca
 }
 
 .Topic {
   width: 750rpx;
-  height: 450rpx;
-  background: #f0f0f0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d2a963b18ed202e8d2366a183585f8ef508d39ca
+  height: 50rpx;
+  background: #F0F0F0;
 }
+.Title{
+  
+}
+.titlenav1{
+  display: flex;
+   flex-direction: row;
+  padding: 20rpx;
+  margin: 12rpx 20rpx;
+  font-size: 50rpx;
+}
+.Icon1 {
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 10rpx;
+}
+.hottitle{
+  margin-left: 20rpx;
+  color: red;
+}
+.navtitle1row{
+  display: flex;
+   flex-direction: row;
+}
+.navtitle2row{
+color:  #736F74;
+font-size: 30rpx;
+margin-left: 20rpx;
+}
+.taglow{
+   display: flex;
+   flex-direction: row;
+}
+.taglow1{
+  margin-left: 320rpx;
+}
+.taglow2{
+  margin-left: 40rpx;
+}
+<<<<<<< HEAD
+=======
+
+
 
 .Title {
 }
+>>>>>>> d2a963b18ed202e8d2366a183585f8ef508d39ca
