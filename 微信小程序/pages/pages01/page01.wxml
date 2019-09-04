@@ -158,8 +158,20 @@
 
       </view>
 
-      <view wx:if="{{indexSelecttwo==5}}">5</view>
-      <view wx:if="{{indexSelecttwo==6}}">6</view>
+      <view wx:if="{{indexSelecttwo==5}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+      <view wx:if="{{indexSelecttwo==6}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
     </view>
 
   </view>
@@ -171,11 +183,41 @@
         </view>
       </view>
     </scroll-view>
-    <view wx:if="{{indexSelectthree==0}}">1</view>
-    <view wx:if="{{indexSelectthree==1}}">2</view>
-    <view wx:if="{{indexSelectthree==2}}">3</view>
-    <view wx:if="{{indexSelectthree==3}}">4</view>
-    <view wx:if="{{indexSelectthree==4}}">5</view>
+    <view wx:if="{{indexSelectthree==0}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectthree==1}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectthree==2}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectthree==3}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectthree==4}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
   </view>
   <view wx:if="{{indexSelect==2}}">
     <scroll-view class='headerBoxtwo' scroll-x="true">
@@ -185,11 +227,41 @@
         </view>
       </view>
     </scroll-view>
-    <view wx:if="{{indexSelectfour==0}}">1</view>
-    <view wx:if="{{indexSelectfour==1}}">2</view>
-    <view wx:if="{{indexSelectfour==2}}">3</view>
-    <view wx:if="{{indexSelectfour==3}}">4</view>
-    <view wx:if="{{indexSelectfour==4}}">5</view>
+    <view wx:if="{{indexSelectfour==0}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectfour==1}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectfour==2}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectfour==3}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectfour==4}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
   </view>
   <view wx:if="{{indexSelect==3}}">
     <scroll-view class='headerBoxtwo' scroll-x="true">
@@ -199,10 +271,40 @@
         </view>
       </view>
     </scroll-view>
-    <view wx:if="{{indexSelectfour==0}}">1</view>
-    <view wx:if="{{indexSelectfour==1}}">2</view>
-    <view wx:if="{{indexSelectfour==2}}">3</view>
-    <view wx:if="{{indexSelectfour==3}}">4</view>
-    <view wx:if="{{indexSelectfour==4}}">5</view>
+    <view wx:if="{{indexSelectfour==0}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectfour==1}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectfour==2}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectfour==3}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
+    <view wx:if="{{indexSelectfour==4}}"><view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view></view>
   </view>
 </view>

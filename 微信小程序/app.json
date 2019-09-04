@@ -1,9 +1,8 @@
 {
   "pages": [
-
+    "pages/index/index",
     "pages/tools/tools",
     "pages/mine/mine",
-    "pages/index/index",
     "pages/pages01/page01",
     "pages/seach/seach",
     "pages/page02/page02",
