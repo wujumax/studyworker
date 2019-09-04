@@ -135,7 +135,7 @@
   <view class="Title">
   <view class="titlenav1">
   <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=60977623,3173186263&fm=26&gp=0.jpg" style="height: 80rpx;width: 80rpx; border-radius:40rpx" ></image>
-  <view>精选文</view>
+  <view>社区小助手</view>
   <image src="../../imgs/govern.png" class="Icon1"></image>
   </view>
   <view class ="navtitle1row">
@@ -168,7 +168,7 @@
   <view class="Title">
   <view class="titlenav1">
   <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=60977623,3173186263&fm=26&gp=0.jpg" style="height: 80rpx;width: 80rpx; border-radius:40rpx" ></image>
-  <view>交流平台</view>
+  <view>社区小助手</view>
   <image src="../../imgs/govern.png" class="Icon1"></image>
   </view>
   <view class ="navtitle1row">
