@@ -18,51 +18,29 @@
     "backgroundColor": "#ffffff",
     "list": [
       {
-<<<<<<< HEAD
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/course.png",
         "selectedIconPath": "imgs/course1.png",
         "text": "课程"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/community.png",
         "selectedIconPath": "imgs/community1.png",
         "text": "社区"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/tool.png",
         "selectedIconPath": "imgs/tool1.png",
-=======
-        "pagePath": "pages/pages01/page01",
-        "iconPath": "imgs/index.png",
-        "selectedIconPath": "imgs/index_select.png",
-        "text": "课程"
-      },
-      {
-        "pagePath": "pages/pages01/page01",
-        "iconPath": "imgs/write.png",
-        "selectedIconPath": "imgs/write_select.png",
-        "text": "社区"
-      },
-      {
-        "pagePath": "pages/pages01/page01",
-        "iconPath": "imgs/find.png",
-        "selectedIconPath": "imgs/find_select.png",
->>>>>>> 16fcbffd4d9309ce3b1c48a05e90ccfc6cdebb00
         "text": "工具箱"
       },
       
       {
         "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/mine.png",
-<<<<<<< HEAD
         "selectedIconPath": "imgs/mine1.png",
-=======
-        "selectedIconPath": "imgs/mine.png",
 
->>>>>>> 16fcbffd4d9309ce3b1c48a05e90ccfc6cdebb00
         "text": "我的"
       }
     ]
