@@ -1,4 +1,26 @@
 <view>
+  <view class="headerbox">
+    <view class="htitle">2019微信公开课第八季 . 零售专场</view>
+    <view class="pictureTitleBox">
+      <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+      <view class="titleBox">
+        <view class="signup">
+          <image src="../../imgs/baoming.png" class="Icon"></image>
+          <view>立即报名</view>
+        </view>
+        <view>
+          <view class="addressTitle">
+            <image src="../../imgs/地址.png" class="Icon1"></image>
+            <view>上海喜来登由由酒店</view>
+          </view>
+          <view class="addressTitle">
+            <image src="../../imgs/时间.png" class="Icon2"></image>
+            <view>2019-09-19 09:30:00</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
   <scroll-view class='headerBox' scroll-x="true">
     <view class='headerItem' wx:for="{{topics}}" wx:key="index" wx:for-item="topic">
       <view class='headerItemView' bindtap='clickTopItem' data-yjs="{{index}}">
@@ -16,13 +38,41 @@
       </view>
       <view class="down">
         <view wx:if="{{indexSelecttwo==0}}">
-          <view class="thebox">
-            <view>
-            <image src="https://tse3-mm.cn.bing.net/th?id=OIP.2CNlCmu3_q5BT2Memgp2iAHaFS&w=262&h=160&c=7&o=5&pid=1.7"></image>
+          <view class="bodybox">
+            <view class="pictureTitleBox">
+              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+              <view class="titleBox">
+                <view class="bTitle">2019微信公开课小游戏</view>
+                <view class="tTitle">919人已学</view>
+              </view>
             </view>
-            <view>
-              <view>小标题</view>
-              <view>观看人数</view>
+            <view class="pictureTitleBox">
+              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+              <view class="titleBox">
+                <view class="bTitle">2019微信公开课小游戏</view>
+                <view>
+                  <view class="tTitle">1689人已学</view>
+                </view>
+              </view>
+            </view>
+            <view class="pictureTitleBox">
+              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+              <view class="titleBox">
+                <view class="bTitle">2019微信公开课小游戏</view>
+                <view class="tTitle">919人已学</view>
+              </view>
+            </view><view class="pictureTitleBox">
+              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+              <view class="titleBox">
+                <view class="bTitle">2019微信公开课小游戏</view>
+                <view class="tTitle">919人已学</view>
+              </view>
+            </view><view class="pictureTitleBox">
+              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+              <view class="titleBox">
+                <view class="bTitle">2019微信公开课小游戏</view>
+                <view class="tTitle">919人已学</view>
+              </view>
             </view>
           </view>
         </view>
