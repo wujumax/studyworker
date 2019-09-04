@@ -18,6 +18,9 @@ Page({
     }, {
       id: 2,
       title: "基础"
+    }, {
+      id: 3,
+      title: "无敌"
     }],
     topicstwo: [{
       em: 0,
@@ -34,6 +37,12 @@ Page({
     }, {
       em: 4,
       title: "矿坑"
+    }, {
+      em: 5,
+      title: "趋势"
+    }, {
+      em: 6,
+      title: "技能"
     }],
     topicsthree: [{
       em: 0,
@@ -68,7 +77,7 @@ Page({
       title: "按时"
     }]
   },
-  
+
   clickTopItem: function(res) {
     //获得传递过来的数据
     let id = res.currentTarget.dataset.yjs;
@@ -77,7 +86,7 @@ Page({
       indexSelect: id
     });
   },
-  clickTopItemtwo: function (res) {
+  clickTopItemtwo: function(res) {
     //获得传递过来的数据
     let em = res.currentTarget.dataset.yjsa;
     //把index换成em
@@ -85,7 +94,7 @@ Page({
       indexSelecttwo: em
     });
   },
-  clickTopItemthree: function (res) {
+  clickTopItemthree: function(res) {
     //获得传递过来的数据
     let em = res.currentTarget.dataset.yjsa;
     //把index换成em
@@ -93,7 +102,7 @@ Page({
       indexSelectthree: em
     });
   },
-  clickTopItemfour: function (res) {
+  clickTopItemfour: function(res) {
     //获得传递过来的数据
     let em = res.currentTarget.dataset.yjsa;
     //把index换成em

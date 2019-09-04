@@ -36,118 +36,132 @@
           <view class='{{indexSelecttwo==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
         </view>
       </view>
-      <view class="down">
-        <view wx:if="{{indexSelecttwo==0}}">
-          <view class="bodybox">
-            <view class="pictureTitleBox">
-              <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
+    </scroll-view>
+    <view class="down">
+      <view wx:if="{{indexSelecttwo==0}}">
+        <view class="bodybox">
+          <view class="pictureTitleBox">
+            <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+            <view class="titleBox">
+              <view class="bTitle">2019微信公开课小游戏</view>
+              <view class="tTitle">919人已学</view>
             </view>
-            <view class="pictureTitleBox">
-              <image src="https://tse4-mm.cn.bing.net/th?id=OIP.NyS_bIdRZxj0m0_-w4HSngHaE9&w=296&h=197&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">1689人已学</view>
-              </view>
+          </view>
+          <view class="pictureTitleBox">
+            <image src="https://tse4-mm.cn.bing.net/th?id=OIP.NyS_bIdRZxj0m0_-w4HSngHaE9&w=296&h=197&c=7&o=5&pid=1.7" class="pictureBox"></image>
+            <view class="titleBox">
+              <view class="bTitle">2019微信公开课小游戏</view>
+              <view class="tTitle">1689人已学</view>
             </view>
-            <view class="pictureTitleBox">
-              <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
+          </view>
+          <view class="pictureTitleBox">
+            <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
+            <view class="titleBox">
+              <view class="bTitle">2019微信公开课小游戏</view>
+              <view class="tTitle">919人已学</view>
             </view>
-            <view class="pictureTitleBox">
-              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
+          </view>
+          <view class="pictureTitleBox">
+            <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+            <view class="titleBox">
+              <view class="bTitle">2019微信公开课小游戏</view>
+              <view class="tTitle">919人已学</view>
             </view>
-            <view class="pictureTitleBox">
-              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
+          </view>
+          <view class="pictureTitleBox">
+            <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+            <view class="titleBox">
+              <view class="bTitle">2019微信公开课小游戏</view>
+              <view class="tTitle">919人已学</view>
             </view>
           </view>
         </view>
-        <view wx:if="{{indexSelecttwo==1}}"><view class="pictureTitleBox">
-              <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
-            </view>
-            <view class="pictureTitleBox">
-              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
-            </view></view>
-        <view wx:if="{{indexSelecttwo==2}}"><view class="pictureTitleBox">
-              <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
-            </view>
-            <view class="pictureTitleBox">
-              <image src="https://tse4-mm.cn.bing.net/th?id=OIP.NyS_bIdRZxj0m0_-w4HSngHaE9&w=296&h=197&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">1689人已学</view>
-              </view>
-            </view>
-            <view class="pictureTitleBox">
-              <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
-            </view></view>
-        <view wx:if="{{indexSelecttwo==3}}"><view class="pictureTitleBox">
-              <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
-            </view>
-            <view class="pictureTitleBox">
-              <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
-            </view></view>
-        <view wx:if="{{indexSelecttwo==4}}"><view class="pictureTitleBox">
-              <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
-            </view>
-            <view class="pictureTitleBox">
-              <image src="https://tse4-mm.cn.bing.net/th?id=OIP.NyS_bIdRZxj0m0_-w4HSngHaE9&w=296&h=197&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">1689人已学</view>
-              </view>
-            </view>
-            <view class="pictureTitleBox">
-              <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
-              <view class="titleBox">
-                <view class="bTitle">2019微信公开课小游戏</view>
-                <view class="tTitle">919人已学</view>
-              </view>
-            </view></view>
       </view>
-    </scroll-view>
+      <view wx:if="{{indexSelecttwo==1}}">
+        <view class="pictureTitleBox">
+          <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view>
+        <view class="pictureTitleBox">
+          <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view>
+      </view>
+      <view wx:if="{{indexSelecttwo==2}}">
+        <view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view>
+        <view class="pictureTitleBox">
+          <image src="https://tse4-mm.cn.bing.net/th?id=OIP.NyS_bIdRZxj0m0_-w4HSngHaE9&w=296&h=197&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">1689人已学</view>
+          </view>
+        </view>
+        <view class="pictureTitleBox">
+          <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view>
+      </view>
+      <view wx:if="{{indexSelecttwo==3}}">
+        <view class="pictureTitleBox">
+          <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view>
+        <view class="pictureTitleBox">
+          <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=576936562,2487905868&fm=26&gp=0.jpg" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view>
+      </view>
+      <view wx:if="{{indexSelecttwo==4}}">
+        <view class="pictureTitleBox">
+          <image src="https://tse3-mm.cn.bing.net/th?id=OIP.xwEMYMuQwCfxrDtDD4vbxwHaEH&w=297&h=164&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view>
+        <view class="pictureTitleBox">
+          <image src="https://tse4-mm.cn.bing.net/th?id=OIP.NyS_bIdRZxj0m0_-w4HSngHaE9&w=296&h=197&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">1689人已学</view>
+          </view>
+        </view>
+        <view class="pictureTitleBox">
+          <image src="https://tse1-mm.cn.bing.net/th?id=OIP.ZuUV2tXc7XDo_H948o2LbAHaE7&w=232&h=160&c=7&o=5&pid=1.7" class="pictureBox"></image>
+          <view class="titleBox">
+            <view class="bTitle">2019微信公开课小游戏</view>
+            <view class="tTitle">919人已学</view>
+          </view>
+        </view>
+
+
+      </view>
+
+      <view wx:if="{{indexSelecttwo==5}}">5</view>
+      <view wx:if="{{indexSelecttwo==6}}">6</view>
+    </view>
+
   </view>
   <view wx:if="{{indexSelect==1}}">
     <scroll-view class='headerBoxtwo' scroll-x="true">
@@ -156,12 +170,12 @@
           <view class='{{indexSelectthree==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
         </view>
       </view>
-      <view wx:if="{{indexSelectthree==0}}">1</view>
-      <view wx:if="{{indexSelectthree==1}}">2</view>
-      <view wx:if="{{indexSelectthree==2}}">3</view>
-      <view wx:if="{{indexSelectthree==3}}">4</view>
-      <view wx:if="{{indexSelectthree==4}}">5</view>
     </scroll-view>
+    <view wx:if="{{indexSelectthree==0}}">1</view>
+    <view wx:if="{{indexSelectthree==1}}">2</view>
+    <view wx:if="{{indexSelectthree==2}}">3</view>
+    <view wx:if="{{indexSelectthree==3}}">4</view>
+    <view wx:if="{{indexSelectthree==4}}">5</view>
   </view>
   <view wx:if="{{indexSelect==2}}">
     <scroll-view class='headerBoxtwo' scroll-x="true">
@@ -170,11 +184,25 @@
           <view class='{{indexSelectfour==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
         </view>
       </view>
-      <view wx:if="{{indexSelectfour==0}}">1</view>
-      <view wx:if="{{indexSelectfour==1}}">2</view>
-      <view wx:if="{{indexSelectfour==2}}">3</view>
-      <view wx:if="{{indexSelectfour==3}}">4</view>
-      <view wx:if="{{indexSelectfour==4}}">5</view>
     </scroll-view>
+    <view wx:if="{{indexSelectfour==0}}">1</view>
+    <view wx:if="{{indexSelectfour==1}}">2</view>
+    <view wx:if="{{indexSelectfour==2}}">3</view>
+    <view wx:if="{{indexSelectfour==3}}">4</view>
+    <view wx:if="{{indexSelectfour==4}}">5</view>
+  </view>
+  <view wx:if="{{indexSelect==3}}">
+    <scroll-view class='headerBoxtwo' scroll-x="true">
+      <view class='headerItemtwo' wx:for="{{topicsthree}}" wx:key="index" wx:for-item="topic">
+        <view class='headerItemViewtwo' bindtap='clickTopItemfour' data-yjsa="{{index}}">
+          <view class='{{indexSelectfour==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
+        </view>
+      </view>
+    </scroll-view>
+    <view wx:if="{{indexSelectfour==0}}">1</view>
+    <view wx:if="{{indexSelectfour==1}}">2</view>
+    <view wx:if="{{indexSelectfour==2}}">3</view>
+    <view wx:if="{{indexSelectfour==3}}">4</view>
+    <view wx:if="{{indexSelectfour==4}}">5</view>
   </view>
 </view>
