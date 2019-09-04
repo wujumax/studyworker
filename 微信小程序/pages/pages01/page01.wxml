@@ -1,0 +1,23 @@
+ <swiper indicator-dots='true' autoplay='true' duration='{{500}}' interval='{{2000}}'>
+
+        <view wx:for='{{imgUrls}}'>
+
+          <swiper-item>
+            <image src='{{item}}'></image>
+          </swiper-item>
+        </view>
+
+ </swiper>
+ <view class="top-1">
+ 精选主题
+ </view>
+
+ <view class="">
+<view>
+
+</view>
+<view>
+
+</view>
+</view>
+   

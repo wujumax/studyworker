@@ -1,0 +1,8 @@
+.top-1{
+  font-size: 50rpx;
+  font-weight: bold;
+  text-align: center;
+  height: 120rpx;
+  line-height: 120rpx;
+  
+}
