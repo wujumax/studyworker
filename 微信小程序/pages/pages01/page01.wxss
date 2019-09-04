@@ -101,6 +101,7 @@
   height: 200rpx;
   border-radius: 10rpx;
   margin-right: 40rpx;
+  margin-left: 10rpx;
 }
 
 .titleBox {
@@ -124,7 +125,7 @@
   height: 50rpx;
   border-radius: 25rpx;
   text-align: center;
-  line-height: 58rpx;
+  line-height: 50rpx;
   color: white;
   font-size: 28rpx;
   display: flex;
@@ -156,6 +157,7 @@
 .Icon2 {
   width: 32rpx;
   height: 32rpx;
+  margin-right: 10rpx;
 }
 
 .bodybox {

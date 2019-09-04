@@ -34,7 +34,7 @@
       },
       
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/tool.png",
         "selectedIconPath": "imgs/tool1.png",
         "text": "工具箱"
