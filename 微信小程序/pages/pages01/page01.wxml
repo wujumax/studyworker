@@ -14,11 +14,23 @@
           <view class='{{indexSelecttwo==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
         </view>
       </view>
-      <view wx:if="{{indexSelecttwo==0}}">1</view>
-      <view wx:if="{{indexSelecttwo==1}}">2</view>
-      <view wx:if="{{indexSelecttwo==2}}">3</view>
-      <view wx:if="{{indexSelecttwo==3}}">4</view>
-      <view wx:if="{{indexSelecttwo==4}}">5</view>
+      <view class="down">
+        <view wx:if="{{indexSelecttwo==0}}">
+          <view class="thebox">
+            <view>
+            <image src="https://tse3-mm.cn.bing.net/th?id=OIP.2CNlCmu3_q5BT2Memgp2iAHaFS&w=262&h=160&c=7&o=5&pid=1.7"></image>
+            </view>
+            <view>
+              <view>小标题</view>
+              <view>观看人数</view>
+            </view>
+          </view>
+        </view>
+        <view wx:if="{{indexSelecttwo==1}}">2</view>
+        <view wx:if="{{indexSelecttwo==2}}">3</view>
+        <view wx:if="{{indexSelecttwo==3}}">4</view>
+        <view wx:if="{{indexSelecttwo==4}}">5</view>
+      </view>
     </scroll-view>
   </view>
   <view wx:if="{{indexSelect==1}}">

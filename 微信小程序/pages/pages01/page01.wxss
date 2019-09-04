@@ -6,7 +6,7 @@
 .headerBoxtwo {
   width:100%;
   white-space: nowrap;
-  background-color: #F4F6F7;
+  background-color: white;
 }
 .headerItem {
   display: inline-block;
@@ -61,4 +61,24 @@
   height: 10rpx;
   background: #2066ff;
   border-radius: 5rpx;
+}
+.down{
+  margin-top: 50rpx;
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+}
+.thebox{
+  display: flex;
+  flex-direction: row;
+  width: 675rpx;
+  height: 200rpx;
+  background-color: bisque;
+}
+.thebox image{
+  width: 350rpx;
+  height: 200rpx;
 }
