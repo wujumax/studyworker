@@ -20,16 +20,17 @@
   text-align: center;
   line-height: 80rpx;
   width: 150rpx;
+  margin-top: 10rpx;
   height: 80rpx;
 }
 
 .headerItem:hover {
-  border-radius: 10rpx;
+  border-radius: 60rpx;
   background-color: #e3e6e7;
 }
 
 .headerItemtwo:hover {
-  border-radius: 20rpx;
+  border-radius: 40rpx;
   background-color: #e3e6e7;
 }
 
