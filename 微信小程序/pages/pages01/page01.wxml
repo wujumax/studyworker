@@ -1,23 +1,11 @@
- <swiper class="img" indicator-dots='true' autoplay='true' duration='{{500}}' interval='{{2000}}'>
-
-        <view wx:for='{{imgUrls}}'>
-
-          <swiper-item>
-            <image class="img" src='{{item}}'></image>
-          </swiper-item>
-        </view>
-
- </swiper>
- <view class="top-1">
- 精选主题
- </view>
-
- <view class="">
 <view>
-
-</view>
-<view>
-
-</view>
+<scroll-view class='headerBox' scroll-x="true">
+    <view class='headerItem' wx:for="{{topics}}" wx:key="index" wx:for-item="topic">
+      <view class='headerItemView' bindtap='clickTopItem' data-yjs="{{index}}">
+        <view class='{{indexSelect==index?"titleSelect":"title"}}'>{{topic.title}}</view>
+        <view class='line' wx:if="{{indexSelect==index}}"></view>
+      </view>
+    </view>
+  </scroll-view>
 </view>
    

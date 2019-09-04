@@ -1,11 +1,40 @@
-.top-1{
-  font-size: 50rpx;
-  font-weight: bold;
-  text-align: center;
-  height: 120rpx;
-  line-height: 120rpx;
-  
+.headerBox {
+  width:100%;
+  white-space: nowrap;
+  background-color: #F4F6F7;
 }
-.img{
-  width: 750rpx;
+
+.headerItem {
+  display: inline-block;
+  width: 250rpx;
+}
+
+.headerItem:hover{
+  border-radius: 10rpx;
+  background-color: #E3E6E7;
+}
+
+.headerItemView {
+  display: flex;
+  flex-direction: column;
+  height: 80rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #555;
+  font-size: 33rpx;
+}
+
+.titleSelect {
+  color: #111;
+  font-size: 36rpx;
+}
+
+.line {
+  width: 50%;
+  height: 10rpx;
+  background: #2066ff;
+  border-radius: 5rpx;
 }
