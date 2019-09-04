@@ -10,8 +10,8 @@
   <view wx:if="{{indexSelect==0}}">
     <scroll-view class='headerBoxtwo' scroll-x="true">
       <view class='headerItemtwo' wx:for="{{topicstwo}}" wx:key="index" wx:for-item="topic">
-        <view class='headerItemViewtwo' bindtap='clickTopItemtwo' data-yjs="{{index}}">
-          <view class='{{indexSelect==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
+        <view class='headerItemViewtwo' bindtap='clickTopItemtwo' data-yjsa="{{index}}">
+          <view class='{{indexSelecttwo==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
         </view>
       </view>
       <view wx:if="{{indexSelecttwo==0}}">1</view>
@@ -24,8 +24,8 @@
   <view wx:if="{{indexSelect==1}}">
     <scroll-view class='headerBoxtwo' scroll-x="true">
       <view class='headerItemtwo' wx:for="{{topicsthree}}" wx:key="index" wx:for-item="topic">
-        <view class='headerItemViewtwo' bindtap='clickTopItemtwo' data-yjs="{{index}}">
-          <view class='{{indexSelect==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
+        <view class='headerItemViewtwo' bindtap='clickTopItemtwo' data-yjsa="{{index}}">
+          <view class='{{indexSelecttwo==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
         </view>
       </view>
       <view wx:if="{{indexSelecttwo==0}}">1</view>
@@ -38,8 +38,8 @@
   <view wx:if="{{indexSelect==2}}">
     <scroll-view class='headerBoxtwo' scroll-x="true">
       <view class='headerItemtwo' wx:for="{{topicsfour}}" wx:key="index" wx:for-item="topic">
-        <view class='headerItemViewtwo' bindtap='clickTopItemtwo' data-yjs="{{index}}">
-          <view class='{{indexSelect==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
+        <view class='headerItemViewtwo' bindtap='clickTopItemtwo' data-yjsa="{{index}}">
+          <view class='{{indexSelecttwo==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
         </view>
       </view>
       <view wx:if="{{indexSelecttwo==0}}">1</view>

@@ -77,8 +77,8 @@ Page({
   },
   clickTopItemtwo: function (res) {
     //获得传递过来的数据
-    let em = res.currentTarget.dataset.yjs;
-    //把index换成id
+    let em = res.currentTarget.dataset.yjsa;
+    //把index换成em
     this.setData({
       indexSelecttwo: em
     });
