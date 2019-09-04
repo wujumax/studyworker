@@ -1,2 +1,0 @@
-# studyworker
-service
