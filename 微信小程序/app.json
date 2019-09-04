@@ -21,19 +21,19 @@
         "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/index.png",
         "selectedIconPath": "imgs/index_select.png",
-        "text": "首页"
+        "text": "课程"
       },
       {
         "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/write.png",
         "selectedIconPath": "imgs/write_select.png",
-        "text": "分类"
+        "text": "社区"
       },
       {
         "pagePath": "pages/pages01/page01",
         "iconPath": "imgs/find.png",
         "selectedIconPath": "imgs/find_select.png",
-        "text": "购物车"
+        "text": "工具箱"
       },
       
       {
