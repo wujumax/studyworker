@@ -6,3 +6,6 @@
   line-height: 120rpx;
   
 }
+.img{
+  width: 750rpx;
+}
