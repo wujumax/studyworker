@@ -7,6 +7,8 @@ Page({
   data: {
     indexSelect: 0,
     indexSelecttwo: 0,
+    indexSelectthree: 0,
+    indexSelectfour: 0,
     topics: [{
       id: 0,
       title: "运营"
@@ -81,6 +83,22 @@ Page({
     //把index换成em
     this.setData({
       indexSelecttwo: em
+    });
+  },
+  clickTopItemthree: function (res) {
+    //获得传递过来的数据
+    let em = res.currentTarget.dataset.yjsa;
+    //把index换成em
+    this.setData({
+      indexSelectthree: em
+    });
+  },
+  clickTopItemfour: function (res) {
+    //获得传递过来的数据
+    let em = res.currentTarget.dataset.yjsa;
+    //把index换成em
+    this.setData({
+      indexSelectfour: em
     });
   },
 
