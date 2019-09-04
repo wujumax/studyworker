@@ -1,12 +1,8 @@
 {
   "pages": [
-<<<<<<< HEAD
 
     "pages/tools/tools",
     "pages/mine/mine",
-=======
-   
->>>>>>> 3284594c01ee0d31a504395aea2337e05c994c14
     "pages/index/index",
     "pages/pages01/page01",
     "pages/seach/seach",
