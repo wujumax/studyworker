@@ -1,14 +1,14 @@
 .searh {
-  display: flex;
   line-height: 70rpx;
   width: 690rpx;
   height: 70rpx;
   color: #c6c6c6;
   margin-top: 40rpx;
   margin-left: 30rpx;
-  margin-bottom: 20rpx;
+  margin-bottom: 30rpx;
   background: white;
   border-radius: 10rpx;
+  z-index: 3;
 }
 
 .header {
@@ -22,23 +22,24 @@
 }
 
 .img {
-  
   border-radius: 20rpx;
   width: 690rpx;
   height: 450rpx;
   margin: 0 auto;
   z-index: 2;
 }
-.button{
-   margin: 0 auto;
- width: 650rpx;
-  background:#FEFEFE;
+
+.button {
+  margin: 0 auto;
+  width: 650rpx;
+  background: #fefefe;
   margin-top: 100rpx;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.button .title{
+
+.button .title {
   font-size: 32rpx;
   display: flex;
   flex-direction: column;
@@ -46,29 +47,33 @@
   justify-content: space-between;
   width: 135rpx;
 }
-.button .titleSelect{
+
+.button .titleSelect {
   font-size: 35rpx;
-  color: #848EEF;
+  color: #848eef;
   display: flex;
   flex-direction: column;
   height: 65rpx;
   justify-content: space-between;
   width: 135rpx;
 }
-.line{
-  background: #848EEF;
+
+.line {
+  background: #848eef;
   width: 100%;
   height: 5rpx;
 }
-.content{
+
+.content {
   width: 750rpx;
-  background: #F7F7F8;
+  background: #f7f7f8;
 }
-.Topic{
+
+.Topic {
   width: 750rpx;
   height: 450rpx;
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
-.Title{
-  
+
+.Title {
 }
