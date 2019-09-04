@@ -32,8 +32,41 @@ Page({
     }, {
       em: 4,
       title: "基础"
+    }],
+    topicsthree: [{
+      em: 0,
+      title: "运营"
+    }, {
+      em: 1,
+      title: "行业"
+    }, {
+      em: 2,
+      title: "基础"
+    }, {
+      em: 3,
+      title: "行业"
+    }, {
+      em: 4,
+      title: "基础"
+    }],
+    topicsfour: [{
+      em: 0,
+      title: "运营"
+    }, {
+      em: 1,
+      title: "行业"
+    }, {
+      em: 2,
+      title: "基础"
+    }, {
+      em: 3,
+      title: "行业"
+    }, {
+      em: 4,
+      title: "基础"
     }]
   },
+  
   clickTopItem: function(res) {
     //获得传递过来的数据
     let id = res.currentTarget.dataset.yjs;
