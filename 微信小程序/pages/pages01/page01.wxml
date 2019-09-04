@@ -7,5 +7,8 @@
       </view>
     </view>
   </scroll-view>
+  <view wx:if="{{indexSelect==0}}">0</view>
+  <view wx:if="{{indexSelect==1}}">1</view>
+  <view wx:if="{{indexSelect==2}}">2</view>
 </view>
    
