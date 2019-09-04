@@ -8,7 +8,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-    <button class="Entrance" bindtap="switchTab">点击进入</button>
+    <button class="Entrance" bindtap="switchTab">立即登录</button>
   </view>
 </view>
