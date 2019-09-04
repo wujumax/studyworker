@@ -21,10 +21,10 @@ Page({
     }]
   ,
     imgUrls: [
-      'http://hbimg.b0.upaiyun.com/1d3f617b893c4237a2ac179c478ac41415a26fdb42ce8-p9yG1u_fw658',
-      'http://pic1.win4000.com/wallpaper/6/599ce1971aeaf.jpg',
+      'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3123372634,2569268067&fm=26&gp=0.jpg',
+      'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3703957127,2695090402&fm=26&gp=0.jpg',
 
-      'http://www.ghost64.com/qqtupian/zixunImg/local/2014/07/04/1404441637189.jpg'
+      'https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2720186096,348194592&fm=26&gp=0.jpg'
     ]
   
   },
