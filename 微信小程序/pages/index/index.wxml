@@ -9,6 +9,6 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-    <button class="Entrance" bindtap="toNavigate">点击进入</button>
+    <button class="Entrance" bindtap="switchTab">点击进入</button>
   </view>
 </view>
