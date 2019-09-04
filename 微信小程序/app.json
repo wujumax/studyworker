@@ -12,6 +12,37 @@
     "navigationBarTitleText": "零食商铺",
     "navigationBarTextStyle": "black"
   },
-  
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#2066FF",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/course.png",
+        "selectedIconPath": "imgs/course.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/community.png",
+        "selectedIconPath": "imgs/community.png",
+        "text": "社区"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/tool.png",
+        "selectedIconPath": "imgs/tool.png",
+        "text": "工具箱"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "imgs/mine.png",
+        "selectedIconPath": "imgs/mine.png",
+        "text": "我的"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json"
 }
