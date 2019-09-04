@@ -21,4 +21,6 @@
 }
 .Entrance{
   width: 270rpx;
+  background: #00B26A;
+  border-radius: 60rpx;
 }

@@ -5,18 +5,107 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrls: [
-      'http://hbimg.b0.upaiyun.com/1d3f617b893c4237a2ac179c478ac41415a26fdb42ce8-p9yG1u_fw658',
-'http://pic1.win4000.com/wallpaper/6/599ce1971aeaf.jpg',
-
-'http://www.ghost64.com/qqtupian/zixunImg/local/2014/07/04/1404441637189.jpg'
-    ]
+    indexSelect: 0,
+    indexSelecttwo: 0,
+    indexSelectthree: 0,
+    indexSelectfour: 0,
+    topics: [{
+      id: 0,
+      title: "运营"
+    }, {
+      id: 1,
+      title: "行业"
+    }, {
+      id: 2,
+      title: "基础"
+    }],
+    topicstwo: [{
+      em: 0,
+      title: "运营"
+    }, {
+      em: 1,
+      title: "行业"
+    }, {
+      em: 2,
+      title: "基础"
+    }, {
+      em: 3,
+      title: "行业"
+    }, {
+      em: 4,
+      title: "基础"
+    }],
+    topicsthree: [{
+      em: 0,
+      title: "运营"
+    }, {
+      em: 1,
+      title: "行业"
+    }, {
+      em: 2,
+      title: "基础"
+    }, {
+      em: 3,
+      title: "行业"
+    }, {
+      em: 4,
+      title: "基础"
+    }],
+    topicsfour: [{
+      em: 0,
+      title: "运营"
+    }, {
+      em: 1,
+      title: "行业"
+    }, {
+      em: 2,
+      title: "基础"
+    }, {
+      em: 3,
+      title: "行业"
+    }, {
+      em: 4,
+      title: "基础"
+    }]
+  },
+  
+  clickTopItem: function(res) {
+    //获得传递过来的数据
+    let id = res.currentTarget.dataset.yjs;
+    //把index换成id
+    this.setData({
+      indexSelect: id
+    });
+  },
+  clickTopItemtwo: function (res) {
+    //获得传递过来的数据
+    let em = res.currentTarget.dataset.yjsa;
+    //把index换成em
+    this.setData({
+      indexSelecttwo: em
+    });
+  },
+  clickTopItemthree: function (res) {
+    //获得传递过来的数据
+    let em = res.currentTarget.dataset.yjsa;
+    //把index换成em
+    this.setData({
+      indexSelectthree: em
+    });
+  },
+  clickTopItemfour: function (res) {
+    //获得传递过来的数据
+    let em = res.currentTarget.dataset.yjsa;
+    //把index换成em
+    this.setData({
+      indexSelectfour: em
+    });
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function(options) {
 
   }
 })
