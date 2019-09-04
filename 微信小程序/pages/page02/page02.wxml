@@ -24,7 +24,7 @@
 <view class="content">
 <view>
 
-<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+<swiper current="{{indexSelect}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
   <swiper-item><view class='swiper_con'>
   <view class="Topic">
   <view class="user">

@@ -38,7 +38,7 @@ Page({
   bindchange: function (e) {
     const that = this;
     that.setData({
-      currentData: e.detail.current
+      indexSelect: e.detail.current
     })
   },
   
