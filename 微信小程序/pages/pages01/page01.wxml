@@ -7,7 +7,20 @@
       </view>
     </view>
   </scroll-view>
-  <view wx:if="{{indexSelect==0}}">0</view>
+  <view wx:if="{{indexSelect==0}}">
+  <scroll-view class='headerBoxtwo' scroll-x="true">
+    <view class='headerItemtwo' wx:for="{{topicstwo}}" wx:key="index" wx:for-item="topic">
+      <view class='headerItemViewtwo' bindtap='clickTopItemtwo' data-yjs="{{index}}">
+        <view class='{{indexSelect==index?"titleSelecttwo":"titletwo"}}'>{{topic.title}}</view>
+      </view>
+    </view>
+    <view wx:if="{{indexSelecttwo==0}}">1</view>
+    <view wx:if="{{indexSelecttwo==1}}">2</view>
+    <view wx:if="{{indexSelecttwo==2}}">3</view>
+    <view wx:if="{{indexSelecttwo==3}}">4</view>
+    <view wx:if="{{indexSelecttwo==4}}">5</view>
+  </scroll-view>
+  </view>
   <view wx:if="{{indexSelect==1}}">1</view>
   <view wx:if="{{indexSelect==2}}">2</view>
 </view>

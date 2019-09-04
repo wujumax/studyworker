@@ -3,14 +3,27 @@
   white-space: nowrap;
   background-color: #F4F6F7;
 }
-
+.headerBoxtwo {
+  width:100%;
+  white-space: nowrap;
+  background-color: #F4F6F7;
+}
 .headerItem {
   display: inline-block;
   width: 250rpx;
 }
-
+.headerItemtwo {
+  display: inline-block;
+  text-align: center;
+  width: 150rpx;
+}
 .headerItem:hover{
   border-radius: 10rpx;
+  background-color: #E3E6E7;
+}
+
+.headerItemtwo:hover{
+  border-radius: 20rpx;
   background-color: #E3E6E7;
 }
 
@@ -27,9 +40,18 @@
   font-size: 33rpx;
 }
 
+.titletwo {
+  color: #555;
+  font-size: 25rpx;
+}
 .titleSelect {
-  color: #111;
+  color: #9215F3;
   font-size: 36rpx;
+}
+
+.titleSelecttwo {
+  color: #9215F3;
+  font-size: 25rpx;
 }
 
 .line {
