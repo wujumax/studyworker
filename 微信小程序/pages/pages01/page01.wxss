@@ -15,7 +15,9 @@
 .headerItemtwo {
   display: inline-block;
   text-align: center;
+  line-height: 80rpx;
   width: 150rpx;
+  height: 80rpx;
 }
 .headerItem:hover{
   border-radius: 10rpx;
