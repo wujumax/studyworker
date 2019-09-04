@@ -1,9 +1,11 @@
 {
   "pages": [
+    
     "pages/index/index",
     "pages/pages01/page01",
     "pages/seach/seach",
     "pages/page02/page02",
+    "pages/users/user",
     
     
     "pages/logs/logs"
@@ -42,7 +44,7 @@
       },
       
       {
-        "pagePath": "pages/page02/page02",
+        "pagePath": "pages/users/user",
         "iconPath": "imgs/mine.png",
         "selectedIconPath": "imgs/mine1.png",
 

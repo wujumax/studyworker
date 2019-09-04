@@ -45,7 +45,7 @@
   flex-direction: column;
   height: 65rpx;
   justify-content: space-between;
-  width: 135rpx;
+  width: 140rpx;
 }
 
 .button .titleSelect {

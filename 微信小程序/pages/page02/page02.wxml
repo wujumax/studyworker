@@ -1,5 +1,5 @@
 <view class="header">
-<view class="searh" bindtap="seach">
+<view class="searh" bindtap="seach" open-type="navigateTo">
  搜索
 </view>
 <swiper class="img" indicator-dots='true' autoplay='true' duration='{{500}}' interval='{{2000}}'>
@@ -28,7 +28,9 @@
   <swiper-item><view class='swiper_con'>
   <view class="Topic">
   <view class="user">
+  <view class="Head portrait">
   
+  </view>
   </view>
   
   <view class="Title">

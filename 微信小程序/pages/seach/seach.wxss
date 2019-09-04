@@ -1,17 +1,21 @@
-.searh {
-  display: flex;
-  line-height: 70rpx;
-  width: 690rpx;
+.seach{
+  width: 550rpx;
   height: 70rpx;
-  color: #c6c6c6;
-  margin-top: 40rpx;
-  margin-left: 30rpx;
-  margin-bottom: 20rpx;
-  background: white;
+  border: 1rpx solid #C5CBCE;
   border-radius: 10rpx;
+  margin:0 20rpx;
+  line-height: 70rpx;
+  
 }
 .body{
-  width: 750rpx;
-  height: 300rpx;
-  background:red;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+
+}
+.button{
+  width: 200rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+
 }
