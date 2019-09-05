@@ -4,7 +4,7 @@
 </view>
 <swiper class="img" indicator-dots='true' autoplay='true' duration='{{500}}' interval='{{2000}}'>
 
-        <view  wx:for='{{imgUrls}}'>
+        <view  wx:for='{{imgUrls}}' wx:key='{{index}}'>
 
           <swiper-item>
             <image class="img" src='{{item}}'></image>
