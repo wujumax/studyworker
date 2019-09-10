@@ -1,6 +1,26 @@
 const app = getApp()
 Page({
-
+  /**
+     * 生命周期函数--监听页面加载
+     */
+  onLoad: function (options) {
+    let that=this;
+    //获得后台服务的数据
+    wx.request({
+      url: 'http://192.168.3.200:8888/index',
+      success: function (res) {
+        console.log(res);
+        if (res.statusCode == 200) {
+          let courses = res.data.courses;
+          let topicstwo = res.data.topicstwo;
+          let topicsthree = res.data.topicsthree;
+          let topicsfour = res.data.topicsfour;
+          let box01 = res.data.box01;
+          that.setData({ topics: courses, topicstwo: topicstwo, topicsthree: topicsthree, topicsfour: topicsfour,box01:box01});
+        }
+      }
+    })
+  },
   /**
    * 页面的初始数据
    */
@@ -9,73 +29,11 @@ Page({
     indexSelecttwo: 0,
     indexSelectthree: 0,
     indexSelectfour: 0,
-    topics: [{
-      id: 0,
-      title: "运营"
-    }, {
-      id: 1,
-      title: "行业"
-    }, {
-      id: 2,
-      title: "基础"
-    }, {
-      id: 3,
-      title: "无敌"
-    }],
-    topicstwo: [{
-      em: 0,
-      title: "运营"
-    }, {
-      em: 1,
-      title: "行业"
-    }, {
-      em: 2,
-      title: "来吗"
-    }, {
-      em: 3,
-      title: "自修"
-    }, {
-      em: 4,
-      title: "矿坑"
-    }, {
-      em: 5,
-      title: "趋势"
-    }, {
-      em: 6,
-      title: "技能"
-    }],
-    topicsthree: [{
-      em: 0,
-      title: "杀毒"
-    }, {
-      em: 1,
-      title: "暗香"
-    }, {
-      em: 2,
-      title: "黑镜"
-    }, {
-      em: 3,
-      title: "编写"
-    }, {
-      em: 4,
-      title: "前期"
-    }],
-    topicsfour: [{
-      em: 0,
-      title: "气球"
-    }, {
-      em: 1,
-      title: "开了"
-    }, {
-      em: 2,
-      title: "哈哈"
-    }, {
-      em: 3,
-      title: "方程"
-    }, {
-      em: 4,
-      title: "按时"
-    }]
+    topics: [],
+    topicstwo: [],
+    topicsthree: [],
+    topicsfour: [],
+    box01:[]
   },
 
   clickTopItem: function(res) {
@@ -109,12 +67,5 @@ Page({
     this.setData({
       indexSelectfour: em
     });
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function(options) {
-
   }
 })
